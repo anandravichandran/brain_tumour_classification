@@ -1,0 +1,18 @@
+project-includes = [
+    "brain-tumor-ai/ml-service/app/**/*.py",
+]
+project-excludes = [
+    "notebook.ipynb",
+    "**/notebook.ipynb",
+    "**/*.ipynb",
+    "**/node_modules/**",
+    "**/venv/**",
+    "**/.venv/**"
+]
+
+replace-imports-with-any = [
+    "*",
+]
+search-path = [
+    "brain-tumor-ai/ml-service",
+]
